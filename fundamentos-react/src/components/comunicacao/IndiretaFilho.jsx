@@ -10,7 +10,7 @@ export default props => {
             <div>
                 Filho
             </div>
-            <button onClick={_ => cb(gerarNome(), gerarIdade(), gerarNerd())}>
+            <button onClick={_ =>  cb(gerarNome(), gerarIdade(), gerarNerd())}>
                 Fornecer Informações
             </button>
         </div>
